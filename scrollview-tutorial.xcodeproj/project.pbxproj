@@ -12,6 +12,8 @@
 		ABE79B1421B74D8E00C83B9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE79B1221B74D8E00C83B9F /* Main.storyboard */; };
 		ABE79B1621B74D9000C83B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE79B1521B74D9000C83B9F /* Assets.xcassets */; };
 		ABE79B1921B74D9000C83B9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE79B1721B74D9000C83B9F /* LaunchScreen.storyboard */; };
+		ABE79B2221B751A800C83B9F /* logan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABE79B2121B751A800C83B9F /* logan.jpg */; };
+		ABE79B2421B751F900C83B9F /* loganText in Resources */ = {isa = PBXBuildFile; fileRef = ABE79B2321B751F900C83B9F /* loganText */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ABE79B1521B74D9000C83B9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABE79B1821B74D9000C83B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABE79B1A21B74D9000C83B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE79B2121B751A800C83B9F /* logan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logan.jpg; sourceTree = "<group>"; };
+		ABE79B2321B751F900C83B9F /* loganText */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = loganText; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		ABE79B0D21B74D8E00C83B9F /* scrollview-tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				ABE79B2021B74E2100C83B9F /* resources */,
 				ABE79B0E21B74D8E00C83B9F /* AppDelegate.swift */,
 				ABE79B1021B74D8E00C83B9F /* ViewController.swift */,
 				ABE79B1221B74D8E00C83B9F /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				ABE79B1A21B74D9000C83B9F /* Info.plist */,
 			);
 			path = "scrollview-tutorial";
+			sourceTree = "<group>";
+		};
+		ABE79B2021B74E2100C83B9F /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABE79B2321B751F900C83B9F /* loganText */,
+				ABE79B2121B751A800C83B9F /* logan.jpg */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE79B2421B751F900C83B9F /* loganText in Resources */,
 				ABE79B1921B74D9000C83B9F /* LaunchScreen.storyboard in Resources */,
+				ABE79B2221B751A800C83B9F /* logan.jpg in Resources */,
 				ABE79B1621B74D9000C83B9F /* Assets.xcassets in Resources */,
 				ABE79B1421B74D8E00C83B9F /* Main.storyboard in Resources */,
 			);
